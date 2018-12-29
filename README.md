@@ -10,12 +10,12 @@ Here after:
 3. "Pn" should be replaced by your projectname (github && local)
 
 ## Some usefull git commands
-cd path/to/your/Pn
-git init
-git status
-git add Fn
-git commit -m "Add here a comment to describe your new commit"
-git remote add origin [https://github.com/Un/Pn.git]()
-git remote -v
-git remote add origin [https://github.com/Un/Pn.git]()
-git push
+- cd path/to/your/Pn
+- git init
+- git status
+- git add Fn
+- git commit -m "Add here a comment to describe your new commit"
+- git remote add origin [https://github.com/Un/Pn.git]()
+- git remote -v
+- git remote add origin [https://github.com/Un/Pn.git]()
+- git push
