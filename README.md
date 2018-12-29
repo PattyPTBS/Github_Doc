@@ -19,3 +19,10 @@ Here after:
 - git remote add origin https://<span></span>github.com/Un/Pn.git
 - git remote -v
 - git push
+
+##Trick to visualize on your PC the mardown file README.md without need to push it to github.com/Un/Pn.git
+On Linux, install pandoc which can convert a mardown file to a html file, and call it from e.g. firefox:
+1. sudo apt install pandoc
+2. cd path/to/your/Pn
+3. pandoc -f mardown_github README.md -o README.html
+4. firefox README.html
