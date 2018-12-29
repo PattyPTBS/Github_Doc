@@ -16,7 +16,7 @@ Here after:
 - git add Fn
 - git commit -m "Add here a comment to describe your new commit"
 - git commit -a -m "Add here a comment to describe your new commit"
-- git remote add origin https://<span></span>github.com/Un/Pn.git
+- git remote add origin http<i></i>s://github.com/Un/Pn.git
 - git remote -v
 - git push
 
