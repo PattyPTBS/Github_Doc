@@ -1,0 +1,11 @@
+#!/bin/bash
+#Affiche dans firefox un fichier $1 après conversion en html dans /dev/shm
+if [[ -f $1 ]];then
+    pdIn=$1
+    pdOut=/dev/shm/${pdIn//*\/}.html
+    pandoc -f markdown_github $pdIn -o $pdOut
+    firefox $pdOut
+    rm $pdOut
+else
+    echo il faut préciser une nom de fichier à convertir
+fi
