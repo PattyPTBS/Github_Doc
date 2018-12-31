@@ -37,3 +37,5 @@ Point 3. and 4. could be replaced by a single command coded as follows (this use
 ```bash
 pdIn='README.md';pdOut=/dev/shm/${pdIn}.html;echo conversion $pdIn $pdOut;pandoc -f markdown_github $pdIn -o $pdOut;firefox $pdOut;rm $pdOut
 ```
+
+You can also use the pandocReader script.
